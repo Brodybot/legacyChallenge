@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A scrapbook of my Sims 4 Legacy Challenge. ">
+      <meta name="keywords" content="sims, video games, the sims 4, TS4, simschallenge, legacy,">
+      <meta name="author" content="Brodybot">
+      <title>Back to the Beginning - Sims 4 Legacy</title>
+      <link href="style.css" rel="stylesheet" type="text/css" media="all">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css"> 
+      <link rel="icon" type="image/png" href="images\wreathfoavicon.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+   </head>
+   <body>
+    <!-- Falling Leaves -->
+    <div id="leaves">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i> 
+      </div>
+
+    <div class="w3-row-padding">
+    
+        <!--Blank Left Column-->
+        <div class="w3-col hide" style="width:21%">
+            <p>fillerfillerfiller</p>
+        </div>
+
+        <!--Center Content Area-->
+        <div class="w3-col" style="width:58%">
+
+            <div class="content w3-center">
+                <br>
+
+                <!-- Create Fun image for header
+                -Transparent image with a fun shape, flat bottom. 
+                -Title and subtitle Underneath in full size rounded block-->
+                <div class = "header w3-center">
+                    <h1 class="amaranteFont headerfont">Back to the Beginning</h1>
+                    <h2 class="amaranteFont headerfont">A Sims 4 Legacy Challenge</h2>
+                </div>
+                <br>
+
+                <!--Tabbed Navigation between generations. 
+                -One generation shown at a time.
+                -Tab shows all Generation Info
+                -Gens each have their own color scheme
+                -Tabs should be rainbow colored matching each gen.-->
+                <div class="nav w3-bar">
+                    <button class="w3-bar-item w3-button tablink w3-lime w3-hover-teal" onclick="openTab(event,'gen1')">Gen 1</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen2')">Gen 2</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen3')">Gen 3</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen4')">Gen 4</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen5')">Gen 5</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen6')">Gen 6</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen7')">Gen 7</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen8')">Gen 8</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen9')">Gen 9</button>
+                    <button class="w3-bar-item w3-button tablink w3-hover-teal" onclick="openTab(event,'gen10')">Gen 10</button>
+                </div>
+
+                <main>
+
+                    <!-- Generations divided into sub-sections:
+                        -Generation Title Description and Specifications
+                        -2 cards with profiles of generation heads (Heir and spouse)
+                        -Wedding Photo
+                        -Potential Heirs- Each a card with little headshot and Name. Selected Heir should stand out.-->
+
+
+                    <!-------------------------------- GENERATION 1--------------------------------------------------->
+                    <div id="gen1" class ="generation w3-container w3-card ">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen1header"><u>Gen 1 – A Humble Start</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>You’ve purchased or inherited a plot of land in the countryside. Times to put down roots and see what will grow.
+                                Begin on the largest lot you are comfortable with. As this is not a rags-to-riches, you can begin with as little or as much as you would like. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>FREELANCE BOTANIST OR RANCHER ASPIRATION</u></b></h5>
+                                <p><b>World:</b> Henford-On-Bagley</p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Legacy Founder">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name Name (Founder)</b></li>
+                                    <li><b>Aspiration:</b> Aspiration</li>
+                                    <li><b>Career:</b> Job Title</li>
+                                    <li><b>Traits:</b> trait 1, trait 2,...</li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Legacy Founder's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> Aspiration</li>
+                                    <li><b>Career:</b> Job Title</li>
+                                    <li><b>Traits:</b> trait 1, trait 2,...</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen1header"><u>Family Memories</u></h3>
+                            <img class = "gen1WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding Photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen1header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn Twin">
+                                    <h5>Name Name</h5>
+                                    <p>Firstborn, Twin</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn Twin">
+                                    <h5>Name Name</h5>
+                                    <p>Firstborn, Twin</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 2--------------------------------------------------->
+                    <div id="gen2" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen2header"><u>Gen 2 – Farmer’s Daughter</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>Your parent’s love of the earth has inspired your own love of animals and creepy crawlies. And if the symphony of frogs on your porch gives you a headache- have some willow bark. 
+                                A quiet life surrounded by animals suits this sim fine. They spend their whole life at home and raise their children in the family house. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>OUTDOOR ENTHUSIAST ASPIRATION</u></b></h5>
+                                <p>Optional: Botanist career if Sim attends university</p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen2header"><u>Family Memories</u></h3>
+                            <img class = "gen2WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen2header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 3--------------------------------------------------->
+                    <div id="gen3" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen3header"><u>Gen 3 – Better Living Through Science</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>Sure, willow bark works, but you want to know why. In fact, why was your first word. Keep asking why. Why Not? 
+                                Curiosity has this Sim leaving home and seeking higher education. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>SCIENTIST CAREER</u></b></h5>
+                                <p>Any aspiration but nerd brain (gen 4) Suggested World: Oasis Springs Alternate World/Aspiration: Strangerville</p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen3header"><u>Family Memories</u></h3>
+                            <img class = "gen3WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen3header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 4--------------------------------------------------->
+                    <div id="gen4" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen4header"><u>Gen 4 – Space is Cool</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>From microscopes to telescopes, this love of science still runs strong in your family. But with your eyes on the stars, are you missing out what’s going on around you?
+                                From a young age, this Sim has had a fascination with space and not much else. They know they want to have a kid...eventually... but that’s what science and nannies are for. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>ASTRONAUT CAREER - Either career path</u></b></h5>
+                                <p>Have a science baby late in adulthood. Suggested: Nerd brain aspiration</p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen4header"><u>Family Memories</u></h3>
+                            <img class = "gen4WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen4header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 5--------------------------------------------------->
+                    <div id="gen5" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen5header"><u>Gen 5 – Runaway Teen</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>Novas, galaxies, black holes – it’s all they care about. They even named you for their precious sky. They can keep their alien abductions – You’re headed to the city. 
+                                Who needs school or university? If this Sim’s parent doesn’t care what they do, then they’ll do what they please.</p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>CRIMINAL CAREER - Either career path </u></b></h5>
+                                <p>Suggested World: San Myshuno Optional: Runaway teen Optional: Single parent via MC Command Center Risky Woohoo </p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen5header"><u>Family Memories</u></h3>
+                            <img class = "gen5WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen5header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 6--------------------------------------------------->
+                    <div id="gen6" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen6header"><u>Gen 6 – Cutting Ties</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>Whatever is going on in that penthouse, you want no part of it. Besides, your buddy on the coast has a great idea for a start up...
+                                Your Sim’s family may have money, but you’re pretty sure it’s illegitimately gained. As soon as possible, they’re off to university and joining their buddy on the coast se. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>TECH GURU start-up branch</u></b></h5>
+                                <p>Computer Wiz Aspiration, Suggested World: San Sequoia</p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen6header"><u>Family Memories</u></h3>
+                            <img class = "gen6WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen6header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 7--------------------------------------------------->
+                    <div id="gen7" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen7header"><u>Gen 7 – Moving Up</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>Swimming Pools, Movies Stars, Sure, you’ve never rubbed shoulder with the elite – but you’re going to, some how. 
+                                This Sim has seen the rich and famous from a distance and intends to join their ranks. Nothing’s gonna stop t</p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>WORLD FAMOUS CELEB ASPIRATION </u></b></h5>
+                                <p>Any career as long as it provides fame Suggested World: Del Sol Valley </p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen7header"><u>Family Memories</u></h3>
+                            <img class = "gen7WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen7header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 8--------------------------------------------------->
+                    <div id="gen8" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen8header"><u>Gen 8 – Making Waves</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>Sure, trading on your parent’s fame might seem cheap – but you’ve got plans. And you’re going to make a difference. 
+                                There’s more than one way to become famous, and this Sim wants to use their parents’ name and their own intellect to change the world.  </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>POLITICIAN CAREER - Either career path</u></b></h5>
+                                <p>Suggested World: San Myshuno, Suggested Aspiration: Seeker of Secrets</p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen8header"><u>Family Memories</u></h3>
+                            <img class = "gen8WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen8header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+                    <!-------------------------------- GENERATION 9--------------------------------------------------->
+                    <div id="gen9" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen9header"><u>Gen 9 – Moving Out</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>You’ve had enough of the big city, big crowds. You’re moving somewhere suburban and relaxed. But maybe...maybe you can still make your mark here. 
+                                Overwhelmed by the drama surrounding their famous family, this Sim leaves the city for a smaller town. They still want to make a difference... just on a smaller scale. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>ECO INNOVATOR ASPIRATION</u></b></h5>
+                                <p>Alternatives: Neighborhood Confidant or Zen Guru, World: Evergreen Harbor, Any small-town world. </p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen9header"><u>Family Memories</u></h3>
+                            <img class = "gen9WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen9header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+                    <!-------------------------------- GENERATION 10--------------------------------------------------->
+                    <div id="gen10" class ="generation w3-container w3-card" style="display:none">
+
+                        <div class = "genHead ">
+                            <h2 class="amaranteFont gen10header"><u>Gen 10 – Back to the Beginning</u></h2>
+                        </div>
+
+                        <div class="genIntro w3-container w3-card w3-white w3-round-small">
+                            <p>There’s nothing wrong with suburbia, but you’ve purchased or inherited a plot of land in the countryside. Time to put down roots and see what will grow. </p>
+                            <div class="w3-center">
+                                <h5 class="amaranteFont"><b><u>END GOAL: return to the original lot and home.</u></b></h5>
+                                <p>Suggestion: Creative or outdoors aspiration such as Painter Extraordinaire or Country Caretaker. Optional Goal: Before moving your Sim into the lot, “renovate” the lot into a derelict state. Sim’s goal is to rebuild it </p>
+                            </div>
+                        </div>
+
+                        <div class = "simBios w3-grid" style="grid-template-columns:auto auto">
+
+                            <div class = "heir w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b> Name (Heir)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                        
+                            </div>
+
+                            <div class = "spouse w3-card w3-white w3-margin w3-center w3-round">
+                                <img class = "portrait w3-image" src="https://placehold.co/450x650" alt="Portrait of the Generation Heir's Spouse">
+                                <ul class = "stats w3-container w3-center w3-ul">
+                                    <li><b>Name (Spouse)</b></li>
+                                    <li><b>Aspiration:</b> </li>
+                                    <li><b>Career:</b> </li>
+                                    <li><b>Traits:</b> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="family">
+                            <h3 class="amaranteFont gen10header"><u>Family Memories</u></h3>
+                            <img class = "gen10WeddingPhoto w3-image w3-card w3-round-xlarge" src="https://placehold.co/1020x780" alt="Wedding photo">
+                            <br>
+                            
+                            <h3 class="amaranteFont gen10header"><u>Potential Heirs</u></h3>
+                            <!-- When adding children, add the word "auto" to the grid-template-columns for each kid. 
+                             Max 4 columns, after that you need rows and gods blessing.-->
+                            <div class="children w3-grid w3-center" style="grid-template-columns:auto auto">
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Firstborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+                                <div class="child w3-margin">
+                                    <img class="w3-image w3-circle" src="https://placehold.co/200x200" alt="Name Name - Secondborn">
+                                    <h5>Name Name</h5>
+                                    <p>Name Name</p>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <script>
+                        function openTab(evt, tabName) {
+                          var i, x, tablinks;
+                          x = document.getElementsByClassName("generation");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                          }
+                          tablinks = document.getElementsByClassName("tablink");
+                          for (i = 0; i < x.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" w3-lime", "");
+                          }
+                          document.getElementById(tabName).style.display = "block";
+                          evt.currentTarget.className += " w3-lime";
+                        }
+                    </script>
+
+                </main>
+                <br>
+                <br>
+                <br>
+
+
+            </div>
+
+
+        </div>
+        <!--Blank Right Column-->
+        <div class="w3-col hide" style="width:21%">
+                <p>fillerfillerfillerfillerfiller</p>
+        </div>
+
+    </div>
+
+
+    <!-- LEAF DECOR TOP-->
+    <div class="topDecor">
+        <img src="images\hangingvines2.png" class= "stretch" alt="hanging vines decoration">
+
+    </div>
+
+    <footer class="w3-container w3-center">
+        <p>The Back to the Beginning Legacy Challenge for the Sims 4 was written by <a href="https://www.reddit.com/r/LowSodiumSimmers/comments/1ezo7gu/its_done_the_back_to_the_beginning_challenge_is/"><b class="w3-text-lime">410-Unsername-Gone</b></a> on r/LowSodiumSimmers community.</p>
+        <p><b>&copy; YOUR NAME 2025. Template created by</b> <a href="https://github.com/Brodybot"><b class="w3-text-lime">Brodybot.</b></a></p>
+    </footer>
+   </body>
+</html>
