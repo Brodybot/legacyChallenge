@@ -6,6 +6,8 @@ Keep track of your Heirs, their spouses, their children and your favorite memory
 
 Customize the colors, background and text all you like. 
 
+Please do not remove either credit from the bottom of the page, adding on to it is fine though. 
+
 ### Requirments
 Knowledge: To use this template you will need to know HTML, CSS and CSS framework w3.CSS. 
 https://www.w3schools.com/w3css/
