@@ -23,4 +23,4 @@ https://www.flaticon.com/
 
 ### Sample
 Want to see a live example of this template in use? Check it out here:
-https://robogenko.com/shrines/sims/template
+https://robogenko.com/shrines/sims/legacy.html
