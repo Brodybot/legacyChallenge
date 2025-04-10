@@ -83,6 +83,11 @@ body {
 
 }
 
+.tab {
+    background-color: var(--leafGreen);
+    font-size: small;
+}
+
 .topDecor {
     position: absolute;
     top: 0;
@@ -477,5 +482,12 @@ footer {
             translate3d(-400px,680px,0)
             rotate(0deg);
         opacity: 0;
+    }
+}
+
+/*---------Media Queries -----*/
+@media screen and (max-width: 600px) {
+    .hide {
+        display: none;
     }
 }
